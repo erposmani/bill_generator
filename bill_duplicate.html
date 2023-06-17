@@ -1,0 +1,306 @@
+
+
+   <style type="text/css">
+      @media print
+      {
+          html
+          {
+              
+              zoom: 70%;
+              page-break-before:always;
+              page-break-after:always;
+              
+          }
+      }
+      
+      .space{
+        page-break-after:always
+      }
+      .btn {
+      padding: 1rem 0;
+      }
+      button {
+      background-color: #0099FF;
+      border: 1px solid #fff;
+      margin-top: 0.5rem;
+      border-radius: 5px;
+      padding:  0.5rem 1rem ;
+      font-size: 1rem;
+      color: #fff;
+      }
+      button:hover {
+      cursor: pointer;
+      background-color:DodgerBlue;
+      color: #fff;
+      }
+      .tb {
+      margin-top: 140px;
+      }
+      .tb1{
+      margin-top: 30px;
+      }
+      .tb2 {
+      margin-top: 440px;
+      }
+      .tb3 {
+      margin-top: 20px;
+      }
+.tb4 {
+      margin-top: 20px;
+      }
+
+h3{
+ opacity: 0.5;
+    color: #e6e4c6;
+    position:absolute;
+    left: 40px;
+    top: 190px;
+    font-size: 20em;
+    -webkit-transform: rotate(-45deg);
+
+}
+.tg  {border-collapse:collapse;border-spacing:0; }
+.tg td{border-color:black;border-style:solid;border-width:thin;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:thin;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{text-align:left;vertical-align:top; color:#000000;}
+.ty {border-style: none; width: 100%;border-spacing: 1em; border-radius: 1px; margin: 20px; margin-left: auto;
+  margin-right: auto;}
+  .tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top; color:#000000; font-weight: bold; font-size: large; font-family: Trebuchet MS, sans-serif;}
+
+
+ .tg  {border-collapse:collapse;border-spacing:0;background-color: #FFFFFF;}
+ .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size: large;
+   overflow:hidden;padding:10px 5px;word-break:normal;}
+ .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size: large;
+   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+ .tg-0pky{font-size: large;}
+
+  .tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:thin;font-family:Arial, sans-serif;font-size:14px;
+overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:thin;font-family:Arial, sans-serif;font-size:14px;
+font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top; font-weight: bold;} 
+
+   </style>
+
+<div style="height: 40px;"></div>
+  
+   <table class="tb" style="width: 100%; border-spacing: 15px;">
+      
+      <tr>
+         <td class="tg-0pky" colspan="18" style="letter-spacing: .2rem; width:60%; font-weight:bold;">{{df.PRIMARY_CONSUMER_NO}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{df.CONSUMER_NO}}</td>
+         <td class="tg-0pky" colspan="2" style="width:15%"></td>
+         <td class="tg-0pky" colspan="2" style="width:15%"></td>
+         <td class="tg-0pky" colspan="2" style="width:10%"></td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="18" rowspan="5" width="30px" style="font-weight: bold;">.<BR><BR>{{df.CONSUMER_NAME}}<BR><BR>{{df.CONSUMER_ADDRESS}}</td>
+         <td class="tg-0pky" colspan="2" style="text-align:center; height:30px; font-weight: bold;" >{{df.ISSUE_DATE }}</td>
+         <td class="tg-0pky" colspan="2" style="text-align:center; height:30px; font-weight: bold;" >{{df.DUE_DATE}}</td>
+         <td class="tg-0pky" colspan="2" style="text-align:center; height:30px; font-weight: bold;" >{{df.BILLING_MONTH}}</td>
+      </tr>
+       <!-- <tr>
+         <td class="tg-0pky" colspan="6";>.</td>
+      </tr> -->
+      <tr>
+         <td class="tg-0pky" colspan="2"  height:30px></td>
+         <td class="tg-0pky" colspan="2" style="text-align:center;  height:30px; font-weight: bold;">{{df.CONSUMER_TARRIF_CODE}}</td>
+         <td class="tg-0pky" colspan="2" style="text-align:center;  height:30px; font-weight: bold;"> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;{{df.CONSUMER_DIA}}</td>
+      </tr>
+      <!-- <tr>
+         <td class="tg-0pky" colspan="6";>.</td>
+      </tr> -->
+      <tr>
+         <td class="tg-0pky" colspan="6"; style="text-align:center;  height:30px; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{df.BILLING_STATUS}}</td>
+      </tr>
+        <tr>
+         <td class="tg-0pky" colspan="6";>.</td>
+      </tr>
+       
+       
+   </table>
+
+
+
+   <table class="tb1" style="width: 100%">
+      <tr>
+         <td class="tg-0pky" rowspan="13" width="5%"></td>
+         <td class="tg-0pky" colspan="3"  width="10%"></td>
+         <td class="tg-0pky" colspan="3"  width="5%"></td>
+         <td class="tg-0pky" colspan="11"  width="20%">  &nbsp;&nbsp;&nbsp;&nbsp;{{df.NOTICE}}</td>
+         <td class="tg-0pky" colspan="1" rowspan="4"  width="10%"></td>
+         <td class="tg-0pky" colspan="3"  width="10%"></td>
+         <td class="tg-0pky" colspan="2" style="height:20px; font-weight: bold; text-align:center;"  width="15%";>{{ df.CURRENT_WATER_CHARGES}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3">JAN</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.JAN}}</td>
+         <td class="tg-0pky" colspan="11" rowspan="2" style="text-align:center; font-weight: bold;" >1-Commercial &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 2-Domestic</td>
+         <td class="tg-0pky" colspan="3"></td>
+         <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.CURRENT_SEWERAGE_CHARGES}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3">FEB</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.FEB}}</td>
+         <td class="tg-0pky" colspan="3"></td>
+         <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.CURRENT_CONSTRUCTION_CHARGES}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3">MAR</td>
+         <td class="tg-0pky" colspan="3"style="text-align:center;">{{df.MAR}}</td>
+         <td class="tg-0pky" colspan="11"></td>
+         <td class="tg-0pky" colspan="7"></td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3">APR</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.APR}}</td>
+         <td class="tg-0pky" colspan="6"></td>
+         <td class="tg-0pky" colspan="5" style="height:30px; text-align:right; font-weight: bold;">{{ df.WATER_TARIFF}}</td>
+         <td class="tg-0pky" colspan="1" rowspan="3"></td>
+         <td class="tg-0pky" colspan="3"></td>
+         <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.ARREARS_WATER_CHARGES}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3">MAY</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.MAY}}</td>
+         <td class="tg-0pky" colspan="6"></td>
+         <td class="tg-0pky" colspan="5"style="height:30px; text-align:right; font-weight: bold;">{{ df.SEWERAGE_TARIFF}}</td>
+         <td class="tg-0pky" colspan="3"></td>
+         <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.ARREARS_SEWERAGE_CHARGES}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3">JUN</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.JUN}}</td>
+         <td class="tg-0pky" colspan="6"></td>
+         <td class="tg-0pky" colspan="5" style="height:30px; text-align:right; font-weight: bold;">{{ df.CONSTRUCTION_TARIFF}}</td>
+         <td class="tg-0pky" colspan="3"></td>
+         <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.ARREARS_CONSTRUCTION_CHARGES}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3">JUL</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.JUL}}</td>
+         <td class="tg-0pky" colspan="11"></td>
+         <td class="tg-0pky" colspan="1" ></td>
+         <td class="tg-0pky" colspan="3" ></td>
+         <td class="tg-0pky" colspan="2" style="height:40px; text-align:center; font-weight: bold;">{{ df.CONSUMER_SERVICE_CHARGES}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3">AUG</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.AUG}}</td>
+         <td class="tg-0pky" colspan="6"></td>
+         <td class="tg-0pky" colspan="5" style="height:30px; text-align:right; font-weight: bold;">{{ df.OUTSTANDING_WATER_ARREARS}}</td>
+         <td class="tg-0pky" colspan="1" rowspan="5"></td>
+         <td class="tg-0pky" colspan="3" rowspan="2"></td>
+         <td class="tg-0pky" colspan="2" rowspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.WITHIN_DUEDATE_AMOUNT}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3">SEP</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.SEP}}</td>
+         <td class="tg-0pky" colspan="6"></td>
+         <td class="tg-0pky" colspan="5" style="height:30px; text-align:right; font-weight: bold;">{{ df.OUTSTANDING_SEWERAGE_ARREARS}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3">OCT</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.OCTOBER}}</td>
+         <td class="tg-0pky" colspan="6"></td>
+         <td class="tg-0pky" colspan="5" style="height:30px; text-align:right; font-weight: bold;">{{ df.OUTSTANDING_CONSTRUCTION_ARREARS}}</td>
+         <td class="tg-0pky" colspan="3"></td>
+         <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.CONSUMER_SURCHARGE}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3">NOV</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.NOV}}</td>
+         <td class="tg-0pky" colspan="11" rowspan="2" style="height:30px; text-align:right; font-weight: bold;">&nbsp;&nbsp;&nbsp;  {{ df.OUTSTANDING_TOTAL}}</td>
+         <td class="tg-0pky" colspan="3" rowspan="2"></td>
+         <td class="tg-0pky" colspan="2" rowspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.AFTER_DUEDATE_AMOUNT}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3" >DEC</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center; height:30px;">{{df.DECEMBER}}</td>
+      </tr>
+   </table>
+   <div style="height: 250px;"></div>
+
+  <table class="tb2" style="width: 100%">
+      <tr>
+         <td class="tg-0pky" colspan="18" style="height:30px; font-weight: bold;">{{df.PRIMARY_CONSUMER_NO}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{df.CONSUMER_NO}}</td>
+         <td class="tg-0pky" colspan="2" ></td>
+         <td class="tg-0pky" colspan="2" ></td>
+         <td class="tg-0pky" colspan="2" ></td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="18" rowspan="2" style="height:30px; font-weight: bold;" ><BR><BR> {{df.CONSUMER_NAME}}<BR><BR>{{df.CONSUMER_ADDRESS}}</td>
+         <td class="tg-0pky" colspan="2" style="height:30px; font-weight: bold;" >{{ISSUE_DATE }}</td>
+         <td class="tg-0pky" colspan="2" style="height:30px; font-weight: bold;" >{{df.DUE_DATE}}</td>
+         <td class="tg-0pky" colspan="2" style="height:30px; font-weight: bold;" >{{df.BILLING_MONTH}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="2"></td>
+         <td class="tg-0pky" colspan="2" style="height:30px; font-weight: bold;">{{df.CONSUMER_TARRIF_CODE}}</td>
+         <td class="tg-0pky" colspan="2" style="height:30px; font-weight: bold;"> &nbsp;&nbsp;&nbsp;&nbsp;{{df.CONSUMER_DIA}}</td>
+      </tr>
+       <tr>
+         <td class="tg-0pky" colspan="18">.</td>
+         <td class="tg-0pky" colspan="6">.</td>
+      </tr>
+      </table>
+       <table class="tb4" style="width: 100%">
+       <tr>
+         <td class="tg-0pky" colspan="3" style="width:7%">.</td>
+         <td class="tg-0pky" colspan="3" style="width:10%"></td>
+         <td class="tg-0pky" colspan="3" style="width:13%"></td>
+         <td class="tg-0pky" colspan="3" style="width:10%"></td>
+         <td class="tg-0pky" colspan="3" style="width:10%"></td>
+         <td class="tg-0pky" colspan="3" style="width:10%"></td>
+         <td class="tg-0pky" colspan="1" rowspan ="3" style="width:10%"></td>
+         <td class="tg-0pky" colspan="3" style="width:10%">.</td>
+         <td class="tg-0pky" colspan="2" style="height:30px; font-weight: bold; text-align:center;">{{ df.WITHIN_DUEDATE_AMOUNT}}</td>
+      </tr>
+      <tr>
+         <td class="tg-0pky" colspan="3" >.</td>
+         <td class="tg-0pky" colspan="3" style="height:30px; text-align:center; font-weight: bold;" >{{ df.CURRENT_WATER_CHARGES}}</td>
+         <td class="tg-0pky" colspan="3" style="height:30px; text-align:center; font-weight: bold;" >{{ df.CURRENT_SEWERAGE_CHARGES}}</td>
+         <td class="tg-0pky" colspan="3" style="height:30px; text-align:center; font-weight: bold;" >{{ df.CURRENT_CONSTRUCTION_CHARGES}}</td>
+         <td class="tg-0pky" colspan="3" style="height:30px; text-align:center; font-weight: bold;" >{{ df.CONSUMER_SERVICE_CHARGES}}</td>
+         <td class="tg-0pky" colspan="3" style="height:30px;  text-align:center; font-weight: bold;">{{ df.CURRENT_TOTAL}}</td>
+         <td class="tg-0pky" colspan="3" >.</td>
+         <td class="tg-0pky" colspan="3" style="height:30px; text-align:center; font-weight: bold;" >{{ df.CONSUMER_SURCHARGE}}</td>
+      </tr>
+         <tr>
+         <td class="tg-0pky" colspan="3" style="height:30px;">.</td>
+         <td class="tg-0pky" colspan="3" style="height:30px; text-align:center; font-weight: bold;">{{ df.ARREARS_WATER_CHARGES}}</td>
+         <td class="tg-0pky" colspan="3" style="height:30px; text-align:center; font-weight: bold;" >{{ df.ARREARS_SEWERAGE_CHARGES}}</td>
+         <td class="tg-0pky" colspan="3" style="height:30px; text-align:center; font-weight: bold;" >{{ df.ARREARS_CONSTRUCTION_CHARGES}}</td>
+         <TD class="tg-0pky" colspan="3">.</TD>
+         <td class="tg-0pky" colspan="3" style="height:30px; text-align:center; font-weight: bold;" >{{ df.ARREARS_TOTAL_CHARGES}}</td>
+         <td class="tg-0pky" colspan="3">.</td>
+         <td class="tg-0pky" colspan="3" rowspan="2" style="text-align:center; font-weight: bold;">{{ df.AFTER_DUEDATE_AMOUNT}}</td>
+
+      </tr>
+
+     <tr>
+         <td colspan="16" border:none; style="border:none; font-family: Trebuchet MS, sans-serif; text-align:left; font-weight: bold; font-size: large;">{{df.PRIMARY_CONSUMER_NO}}</td>
+         <!-- <td class="tg-0pky" colspan="3">.</td> -->
+         <td class="tg-0pky"  style="border:none;font-weight: bold; text-align:center;">{{ df.WITHIN_DUEDATE_AMOUNT}}</td>
+      </tr>
+</table>
+
+<table class="tb3"  style="width: 100%">
+    
+   <tr>
+      <td class="tg-0pky" colspan="22" style="border: none;"><img style= "height:60px; width:600px;text-align: right;"  src={{"https://barcode.tec-it.com/barcode.ashx?data=" ~ df.CONSUMER_NO ~ df.WITHIN_DUE_DATE_AMOUNT ~ df.DUE_DATE ~ df.AFTER_DUE_DATE_AMOUNT~"&code=Code39&translate-esc=true" }} alt="barcode"/>&nbsp;&nbsp;&nbsp;&nbsp; </td>
+         <td colspan="2" style="border:none; font-family: Trebuchet MS, sans-serif; font-weight: bold; font-size: large;">
+            <p >Dont stamp on barcode</p>
+         </td>
+      </tr>
+
+   </table>
+
+
+</div>
+<div class="space">
+
+</div>
