@@ -113,7 +113,7 @@ font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
       <!-- <tr>
          <td class="tg-0pky" colspan="6";>.</td>
       </tr> -->
-      <tr>
+      <tr>      
          <td class="tg-0pky" colspan="6"; style="text-align:center;  height:30px; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{df.BILLING_STATUS}}</td>
       </tr>
         <tr>
@@ -136,60 +136,63 @@ font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
          <td class="tg-0pky" colspan="2" style="height:20px; font-weight: bold; text-align:center;"  width="15%";>{{ df.CURRENT_WATER_CHARGES}}</td>
       </tr>
       <tr>
-         <td class="tg-0pky" colspan="3">JAN</td>
-         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.JAN}}</td>
+         <td class="tg-0pky" colspan="3">{{df.PAYMENT_HISTORY[0][0] }}</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.PAYMENT_HISTORY[0][1] }}</td>
          <td class="tg-0pky" colspan="11" rowspan="2" style="text-align:center; font-weight: bold;" >1-Commercial &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 2-Domestic</td>
          <td class="tg-0pky" colspan="3"></td>
          <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.CURRENT_SEWERAGE_CHARGES}}</td>
       </tr>
       <tr>
-         <td class="tg-0pky" colspan="3">FEB</td>
-         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.FEB}}</td>
+         <td class="tg-0pky" colspan="3">{{df.PAYMENT_HISTORY[1][0] }}</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.PAYMENT_HISTORY[1][1] }}</td>
          <td class="tg-0pky" colspan="3"></td>
          <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.CURRENT_CONSTRUCTION_CHARGES}}</td>
       </tr>
       <tr>
-         <td class="tg-0pky" colspan="3">MAR</td>
-         <td class="tg-0pky" colspan="3"style="text-align:center;">{{df.MAR}}</td>
+         <td class="tg-0pky" colspan="3">{{df.PAYMENT_HISTORY[2][0] }}</td>
+         <td class="tg-0pky" colspan="3"style="text-align:center;">{{df.PAYMENT_HISTORY[2][1] }}</td>
          <td class="tg-0pky" colspan="11"></td>
          <td class="tg-0pky" colspan="7"></td>
       </tr>
       <tr>
-         <td class="tg-0pky" colspan="3">APR</td>
-         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.APR}}</td>
+         <td class="tg-0pky" colspan="3">{{df.PAYMENT_HISTORY[3][0] }}</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.PAYMENT_HISTORY[3][1] }}</td>
          <td class="tg-0pky" colspan="6"></td>
          <td class="tg-0pky" colspan="5" style="height:30px; text-align:right; font-weight: bold;">{{ df.WATER_TARIFF}}</td>
          <td class="tg-0pky" colspan="1" rowspan="3"></td>
          <td class="tg-0pky" colspan="3"></td>
          <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.ARREARS_WATER_CHARGES}}</td>
       </tr>
+
       <tr>
-         <td class="tg-0pky" colspan="3">MAY</td>
-         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.MAY}}</td>
+         <td class="tg-0pky" colspan="3">{{df.PAYMENT_HISTORY[4][0] }}</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.PAYMENT_HISTORY[4][1] }}</td>
          <td class="tg-0pky" colspan="6"></td>
          <td class="tg-0pky" colspan="5"style="height:30px; text-align:right; font-weight: bold;">{{ df.SEWERAGE_TARIFF}}</td>
          <td class="tg-0pky" colspan="3"></td>
          <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.ARREARS_SEWERAGE_CHARGES}}</td>
       </tr>
+
       <tr>
-         <td class="tg-0pky" colspan="3">JUN</td>
-         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.JUN}}</td>
+         <td class="tg-0pky" colspan="3">{{df.PAYMENT_HISTORY[5][0] }}</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.PAYMENT_HISTORY[5][1] }}</td>
          <td class="tg-0pky" colspan="6"></td>
          <td class="tg-0pky" colspan="5" style="height:30px; text-align:right; font-weight: bold;">{{ df.CONSTRUCTION_TARIFF}}</td>
          <td class="tg-0pky" colspan="3"></td>
          <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.ARREARS_CONSTRUCTION_CHARGES}}</td>
       </tr>
       <tr>
-         <td class="tg-0pky" colspan="3">JUL</td>
-         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.JUL}}</td>
+         <td class="tg-0pky" colspan="3">{{df.PAYMENT_HISTORY[6][0] }}</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.PAYMENT_HISTORY[6][1] }}</td>
          <td class="tg-0pky" colspan="11"></td>
          <td class="tg-0pky" colspan="1" ></td>
          <td class="tg-0pky" colspan="3" ></td>
          <td class="tg-0pky" colspan="2" style="height:40px; text-align:center; font-weight: bold;">{{ df.CONSUMER_SERVICE_CHARGES}}</td>
       </tr>
+  
       <tr>
-         <td class="tg-0pky" colspan="3">AUG</td>
-         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.AUG}}</td>
+         <td class="tg-0pky" colspan="3">{{df.PAYMENT_HISTORY[7][0] }}</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.PAYMENT_HISTORY[7][1] }}</td>
          <td class="tg-0pky" colspan="6"></td>
          <td class="tg-0pky" colspan="5" style="height:30px; text-align:right; font-weight: bold;">{{ df.OUTSTANDING_WATER_ARREARS}}</td>
          <td class="tg-0pky" colspan="1" rowspan="5"></td>
@@ -197,29 +200,31 @@ font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
          <td class="tg-0pky" colspan="2" rowspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.WITHIN_DUEDATE_AMOUNT}}</td>
       </tr>
       <tr>
-         <td class="tg-0pky" colspan="3">SEP</td>
-         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.SEP}}</td>
+         <td class="tg-0pky" colspan="3">{{df.PAYMENT_HISTORY[8][0] }}</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.PAYMENT_HISTORY[8][1] }}</td>
          <td class="tg-0pky" colspan="6"></td>
          <td class="tg-0pky" colspan="5" style="height:30px; text-align:right; font-weight: bold;">{{ df.OUTSTANDING_SEWERAGE_ARREARS}}</td>
       </tr>
+
       <tr>
-         <td class="tg-0pky" colspan="3">OCT</td>
-         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.OCTOBER}}</td>
+         <td class="tg-0pky" colspan="3">{{df.PAYMENT_HISTORY[9][0] }}</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.PAYMENT_HISTORY[9][1] }}</td>
          <td class="tg-0pky" colspan="6"></td>
          <td class="tg-0pky" colspan="5" style="height:30px; text-align:right; font-weight: bold;">{{ df.OUTSTANDING_CONSTRUCTION_ARREARS}}</td>
          <td class="tg-0pky" colspan="3"></td>
          <td class="tg-0pky" colspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.CONSUMER_SURCHARGE}}</td>
       </tr>
       <tr>
-         <td class="tg-0pky" colspan="3">NOV</td>
-         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.NOV}}</td>
+         <td class="tg-0pky" colspan="3">{{df.PAYMENT_HISTORY[10][0] }}</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center;">{{df.PAYMENT_HISTORY[10][1] }}</td>
          <td class="tg-0pky" colspan="11" rowspan="2" style="height:30px; text-align:right; font-weight: bold;">&nbsp;&nbsp;&nbsp;  {{ df.OUTSTANDING_TOTAL}}</td>
          <td class="tg-0pky" colspan="3" rowspan="2"></td>
          <td class="tg-0pky" colspan="2" rowspan="2" style="height:30px; text-align:center; font-weight: bold;">{{ df.AFTER_DUEDATE_AMOUNT}}</td>
       </tr>
+
       <tr>
-         <td class="tg-0pky" colspan="3" >DEC</td>
-         <td class="tg-0pky" colspan="3" style="text-align:center; height:30px;">{{df.DECEMBER}}</td>
+         <td class="tg-0pky" colspan="3" >{{df.PAYMENT_HISTORY[11][0] }}</td>
+         <td class="tg-0pky" colspan="3" style="text-align:center; height:30px;">{{df.PAYMENT_HISTORY[11][1] }}</td>
       </tr>
    </table>
    <div style="height: 250px;"></div>
@@ -269,6 +274,7 @@ font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
          <td class="tg-0pky" colspan="3" >.</td>
          <td class="tg-0pky" colspan="3" style="height:30px; text-align:center; font-weight: bold;" >{{ df.CONSUMER_SURCHARGE}}</td>
       </tr>
+
          <tr>
          <td class="tg-0pky" colspan="3" style="height:30px;">.</td>
          <td class="tg-0pky" colspan="3" style="height:30px; text-align:center; font-weight: bold;">{{ df.ARREARS_WATER_CHARGES}}</td>
@@ -291,7 +297,7 @@ font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 <table class="tb3"  style="width: 100%">
     
    <tr>
-      <td class="tg-0pky" colspan="22" style="border: none;"><img style= "height:60px; width:600px;text-align: right;"  src={{"https://barcode.tec-it.com/barcode.ashx?data=" ~ df.CONSUMER_NO ~ df.WITHIN_DUE_DATE_AMOUNT ~ df.DUE_DATE ~ df.AFTER_DUE_DATE_AMOUNT~"&code=Code39&translate-esc=true" }} alt="barcode"/>&nbsp;&nbsp;&nbsp;&nbsp; </td>
+      <td class="tg-0pky" colspan="22" style="border: none;"><img style="height:60px; width:600px;text-align: right;"  src={{ df.BARCODE }} alt="barcode"/>&nbsp;&nbsp;&nbsp;&nbsp; </td>
          <td colspan="2" style="border:none; font-family: Trebuchet MS, sans-serif; font-weight: bold; font-size: large;">
             <p >Dont stamp on barcode</p>
          </td>
